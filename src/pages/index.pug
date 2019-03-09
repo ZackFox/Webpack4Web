@@ -1,0 +1,22 @@
+extends ./layout.pug
+include ../blocks/header/header.pug
+include ../blocks/footer/footer.pug  
+
+block prepend head
+  -var title = "Home page"
+
+block body
+  +header("hello pug !!!","logo.png")
+  <main class="main">
+    <section class="section">
+      <div class="container">
+        <h2 class="heading">Webpack</h2>  
+        <p>sssss</p> 
+        <img src="/img/logo.png" alt="" />  
+        <!-- <svg class="icon">
+          <use xlink:href="/img/sprite.svg#icon-dollar"></use>
+        </svg>           -->
+      </div>
+    </section>     
+  </main>
+  +footer 

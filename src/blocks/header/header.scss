@@ -1,0 +1,44 @@
+//----
+header {
+  background: blueviolet;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h2 {
+  font-family: "Oxygen";
+  font-weight: 700; 
+}
+
+.header-top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.logo {
+  display: block;
+  width: 180px;
+  height: 37px;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  &-inner,
+  &-inner:before,
+  &-inner:after {
+    background: #fff;
+  }
+}
