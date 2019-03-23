@@ -1,10 +1,6 @@
-mixin header(text,image)
-  - var url = "../img/"+image
-  <header>      
-    <div class="container">
-      <div class="hero">        
-        <span class="text">#{text}</span>          
-        <img src="#{url}" alt="" />        
-      </div>          
+mixin header(text)
+  <header class="header">      
+    <div class="container">      
+      <h1 class="header__title">#{text}</h1>                        
     </div>    
   </header>

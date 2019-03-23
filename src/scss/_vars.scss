@@ -1,29 +1,21 @@
 $main: #4b4b4b;
-$accent: #ff6d00;
-$lite: #a9a9a9;
-$bright: #eef2f4;
+$accent: #006cb4;
+
+$prime: #4eb7a7;
+$prime-dark: #28a290;
+
+$second: #e75735;
+$second-dark: #bf3e1f;
+
+$lite: #e7e7e7;
+$bright: #e3e6e7;
 $dark: #5f676c;
-$text: #4b4b4b;
+$text: #000;
 
-$main-font: "Open Sans", sans-serif;
-$heading-font: "Open Sans", sans-serif;
+$main-font: "Myriad Pro", sans-serif;
+$heading-font: "Myriad Pro", sans-serif;
 
-$container-size: 1170px;
+$container-size: 1920px;
+
 $grid-columns: 12;
-
 $grid-gutter-width: 30px;
-
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-);
-
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1200px,
-);

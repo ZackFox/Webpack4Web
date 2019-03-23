@@ -6,31 +6,15 @@ html {
   font-size: 14px;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   position: relative;
-  display: flex;
-  flex-direction: column;
   font-family: $main-font;
-  font-weight: 300;
-  line-height: 1.65;
+  font-weight: normal;
   color: $text;
-}
-
-.main {
-  flex: 1;
 }
 
 a {
   color: $text;
-  font-size: 1rem;
-  font-weight: 300;
-  transition: 0.3s;
-  line-height: 1rem;
   &:hover {
     color: $lite;
     text-decoration: underline;
@@ -49,46 +33,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font;
+  font-family: $main-font;
   font-style: normal;
-  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 p {
-  font-weight: 300;
+  margin-top: 0;
+  font-size: 1rem;
   font-style: normal;
-  margin-bottom: 0;
-  font-size: 1.2rem;
-  color: $text;
 }
 
-.container {
-  width: 100%;
-  max-width: $container-size;
-  margin: 0 auto;
-  padding: 0 15px;
-  box-sizing: border-box;
-  height: 100%;
-  position: relative;
-}
-
-.section {
-  padding: 90px 0;
-  text-align: center;
-  position: relative;
-}
-
-.section-cover {
-  &::before {
-    content: "";
-    display: block;
-    position: absolute;
-    opacity: 0.8;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+strong {
+  font-weight: bold;
 }
 
 .h-100 {
@@ -103,9 +61,11 @@ p {
 
 .icon {
   display: inline-block;
-  height: 3rem;
-  width: 3rem;
-  fill: $accent;
+  height: 1em;
+  width: 1em;
+  font-size: 18px;
+  fill: $prime;
+  vertical-align: middle;
 }
 
 .visually-hidden {
@@ -119,8 +79,14 @@ p {
   overflow: hidden;
 }
 
+.wrapper {
+  width: 100%;
+  max-width: $container-size;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+
 @import "../blocks/header/header";
 @import "../blocks/footer/footer";
-
-// Всегда в конце
-@import "media";

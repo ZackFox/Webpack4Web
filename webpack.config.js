@@ -77,7 +77,7 @@ const config = {
       },
       {
         test: /\.(gif|png|jpe?g|svg|ico)$/i,
-        include: [path.resolve(__dirname, "src/img")],
+        exclude: [path.resolve(__dirname, "src/fonts")],
         use: [
           {
             loader: "file-loader",
@@ -88,6 +88,7 @@ const config = {
           {
             loader: "image-webpack-loader",
             options: {
+              bypassOnDebug: true,
               mozjpeg: {
                 progressive: true,
                 quality: 65,
@@ -105,7 +106,10 @@ const config = {
       },
       {
         test: /\.(eot|svg|ttf|woff|woff2)$/,
-        include: [path.resolve(__dirname, "src/fonts")],
+        exclude: [
+          path.resolve(__dirname, "src/img"),
+          path.resolve(__dirname, "src/blocks"),
+        ],
         use: {
           loader: "file-loader",
           options: {

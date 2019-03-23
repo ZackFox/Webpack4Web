@@ -1,44 +1,32 @@
-/* libre-baskerville-700 - latin */
 @font-face {
-  font-family: "Libre Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/Libre_Baskerville/libre-baskerville-700.eot"); /* IE9 Compat Modes */
-  src: local("Libre Baskerville Bold"), local("LibreBaskerville-Bold"),
-    url("../fonts/Libre_Baskerville/libre-baskerville-700.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/Libre_Baskerville/libre-baskerville-700.woff2")
-      format("woff2"),
-    url("../fonts/Libre_Baskerville/libre-baskerville-700.woff") format("woff"),
-    url("../fonts/Libre_Baskerville/libre-baskerville-700.ttf")
-      format("truetype"),
-    url("../fonts/Libre_Baskerville/libre-baskerville-700.svg#LibreBaskerville")
-      format("svg");
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-LightSemiExt.eot');
+	src: local('Myriad Pro Light SemiExtended'), local('MyriadPro-LightSemiExt'),
+		url('../fonts/MyriadPro-LightSemiExt.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-LightSemiExt.woff') format('woff'),
+		url('../fonts/MyriadPro-LightSemiExt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
 }
 
-/* oxygen-300 - latin */
 @font-face {
-  font-family: "Oxygen";
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/Oxygen/oxygen-300.eot");
-  src: local("Oxygen Light"), local("Oxygen-Light"),
-    url("../fonts/Oxygen/oxygen-300.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Oxygen/oxygen-300.woff2") format("woff2"),
-    url("../fonts/Oxygen/oxygen-300.woff") format("woff"),
-    url("../fonts/Oxygen/oxygen-300.ttf") format("truetype"),
-    url("../fonts/Oxygen/oxygen-300.svg#Oxygen") format("svg");
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: local('Myriad Pro Regular'), local('MyriadPro-Regular'),
+		url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
-/* oxygen-700 - latin */
+
 @font-face {
-  font-family: "Oxygen";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/Oxygen/oxygen-700.eot"); /* IE9 Compat Modes */
-  src: local("Oxygen Bold"), local("Oxygen-Bold"),
-    url("../fonts/Oxygen/oxygen-700.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Oxygen/oxygen-700.woff2") format("woff2"),
-    url("../fonts/Oxygen/oxygen-700.woff") format("woff"),
-    url("../fonts/Oxygen/oxygen-700.ttf") format("truetype"),
-    url("../fonts/Oxygen/oxygen-700.svg#Oxygen") format("svg");
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Bold.eot');
+	src: local('Myriad Pro Bold'), local('MyriadPro-Bold'),
+		url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Bold.woff') format('woff'),
+		url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
